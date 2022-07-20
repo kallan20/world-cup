@@ -1,4 +1,5 @@
 body {
+    width: 100%;
     margin: 0;
     background-color: lightgoldenrodyellow;
 }
@@ -7,19 +8,26 @@ body {
     display: flex;
     align-items: center;
     margin: 0 auto;
+    margin-bottom: 1%;
     width: 100%;
-    height: 40%;
+    height: 70%;
     background-color: black;
     width: 77%;
     margin-left: 12%;
     border-radius: 3%;
     color: white;
-    margin-right: 15%px;
+    margin-right: 15%;
+    padding-bottom: 20px;
 }
 
 .banner h1 {
     font-family: 'Edu TAS Beginner', cursive;
-    font-size: 50px;
+    font-size: 4vw;
+}
+
+.banner p {
+    font-size: 1vw;
+    padding-bottom: 5px;
 }
 
 .banner a {
@@ -29,7 +37,8 @@ body {
     background-color: orangered;
     border-radius: 5px;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.8vw;
+    margin-bottom: 1%;
 }
 
 .banner {
@@ -37,7 +46,10 @@ body {
 }
 
 .banner-img {
-    padding-right: 20px;
+    width: 100%;
+    height: 100%;
+    padding-right: 2px;
+
 }
 
 .main-blog {
@@ -52,6 +64,16 @@ body {
     margin-left: 12%;
 }
 
+.blog p {
+    font-size: 2vw;
+    padding-left: 10px;
+}
+
+.blog span {
+    justify-content: space-evenly;
+    padding-left: 10px;
+}
+
 
 .main-blog .blog {
     background-color: rgb(214, 203, 102);
@@ -59,6 +81,7 @@ body {
     margin-right: 5%;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 8px;
+    width: 100%;
 }
 
 .footer {
@@ -86,7 +109,7 @@ hr {
 }
 
 .link {
-    font-size: 60px;
+    font-size: 4vw;
     color: white;
 }
 
@@ -117,7 +140,6 @@ hr {
     .header {
         display: grid;
         grid-template-columns: repeat(1, 1rf);
-        padding-left: 14%;
     }
 }
 
@@ -128,5 +150,6 @@ hr {
     .main-blog .blog {
         background-color: white;
         grid-template-columns: repeat(2, 1fr);
+        justify-content: space-evenly;
     }
 }
